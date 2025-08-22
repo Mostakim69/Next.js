@@ -16,7 +16,7 @@ import useAuth from "@/lib/useAuth";
 const navLinks = [
   { name: "Home", href: "/", icon: Home },
   { name: "About", href: "/about", icon: Info },
-  { name: "Services", href: "/services", icon: Briefcase },
+  // { name: "Services", href: "/services", icon: Briefcase },
   { name: "Blogs", href: "/blogs", icon: BookOpen },
   { name: "My Bookings", href: "/my-bookings", icon: CalendarCheck },
   { name: "Contact Us", href: "/contact", icon: Phone },
