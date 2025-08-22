@@ -26,7 +26,7 @@ export default function ContactPage() {
         </h1>
         <p className="mt-2 text-gray-400 text-lg">
           Founder & Owner of{" "}
-          <span className="text-cyan-400">Drive Hospital</span> 🏥 <br />
+          <span className="text-cyan-400">Shopper</span> 🏥 <br />
           MERN Stack Developer • Building Scalable Health-Tech Solutions
         </p>
       </section>
@@ -121,7 +121,7 @@ export default function ContactPage() {
       {/* Footer CTA */}
       <section className="text-center py-8 border-t border-gray-700">
         <h2 className="text-2xl font-bold text-cyan-400">
-          Drive Hospital – Caring for You 24/7
+          Shopper – Caring for You 24/7
         </h2>
         <p className="text-gray-400 mt-2">
           Reach out anytime. We’re here to help!

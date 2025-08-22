@@ -35,8 +35,8 @@ const Navbar = () => {
             href="/"
             className="flex items-center text-2xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors"
           >
-            Drive <span className="text-purple-400 ml-1">Hospital</span>
-          </Link>
+            Shopper
+            </Link>
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex space-x-8">

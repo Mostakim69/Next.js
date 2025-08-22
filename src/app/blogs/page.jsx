@@ -61,11 +61,10 @@ export default function BlogPage() {
       {/* Page Header */}
       <section className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-          Drive Hospital Blog
+          Shopper Blog
         </h1>
         <p className="mt-4 text-gray-400 text-lg max-w-2xl mx-auto">
-          Tips, tutorials, and insights from Drive Hospital and Md. Shahjalal —
-          keeping your vehicle in peak condition and sharing industry knowledge.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur molestias possimus fugit soluta quaerat veritatis, iusto nisi ratione velit quas, pariatur delectus debitis autem aperiam ab, voluptatum dolores illo assumenda!
         </p>
       </section>
 
@@ -103,7 +102,7 @@ export default function BlogPage() {
       {/* CTA Section */}
       <section className="mt-16 text-center">
         <h2 className="text-2xl font-bold text-purple-300 mb-4">
-          Stay Updated with Drive Hospital
+          Stay Updated with Shopper
         </h2>
         <p className="text-gray-400 mb-6">
           Subscribe to our newsletter and never miss an update on car

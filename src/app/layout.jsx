@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Drive Hospital",
-  description: " Drive Hospital",
+  title: "Shopper",
+  description: " Shopper",
 };
 
 export default function RootLayout({ children }) {
