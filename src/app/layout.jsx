@@ -17,43 +17,42 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Shopper",
-  description: " Shopper",
+  description: "Shopper",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
-      >
-        {/* Navbar stays above background */}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Toaster position="top-center" />
         <NextAuthProvider>
-          <div className="sticky top-0 z-50 bg-gray-900/70 backdrop-blur-lg border-b border-gray-800 shadow-md">
+          {/* Navbar */}
+          <div className="sticky top-0 z-50 bg-[#1e3a8a]/80 backdrop-blur-lg border-b border-[#1e40af] shadow-md">
             <Navbar />
           </div>
 
           {/* Main container */}
-          <div className="min-h-screen w-full bg-black relative overflow-hidden">
+          <div className="min-h-screen w-full bg-[#0a0e1a] relative overflow-hidden">
             {/* Background Layer */}
             <div
               className="absolute inset-0 z-0"
               style={{
-                background: "#000000",
+                background: "#0a0e1a",
                 backgroundImage: `
-            radial-gradient(circle, rgba(255, 255, 255, 0.2) 1.5px, transparent 1.5px)
-          `,
+                  radial-gradient(circle, rgba(59,130,246,0.2) 1.5px, transparent 1.5px)
+                `,
                 backgroundSize: "30px 30px",
                 backgroundPosition: "0 0",
               }}
             />
 
             {/* Content Layer */}
-            <div className="relative z-10 max-w-11/12 mx-auto min-h-[60vh] px-4 sm:px-6 lg:px-8">
+            <div className="relative z-10 max-w-7xl mx-auto min-h-[60vh] px-4 sm:px-6 lg:px-8 text-gray-100">
               {children}
             </div>
 
-            <div className="">
+            {/* Footer */}
+            <div className="bg-[#1e3a8a]/90 border-t border-[#1e40af]">
               <Footer />
             </div>
           </div>
