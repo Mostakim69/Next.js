@@ -6,19 +6,6 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen w-full bg-[#0f172a] relative text-white">
       {/* Dark Dotted Grid Background */}
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          background: "#0f172a",
-          backgroundImage: `
-            radial-gradient(circle, rgba(139,92,246,0.6) 1px, transparent 1px),
-            radial-gradient(circle, rgba(59,130,246,0.4) 1px, transparent 1px),
-            radial-gradient(circle, rgba(236,72,153,0.5) 1px, transparent 1px)
-          `,
-          backgroundSize: "20px 20px, 40px 40px, 60px 60px",
-          backgroundPosition: "0 0, 10px 10px, 30px 30px",
-        }}
-      />
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-16 space-y-24">
@@ -107,7 +94,7 @@ export default function AboutPage() {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10">
             {[
               {
-                name: "Shah Jalal",
+                name: "Mohammed Al Amin",
                 role: "Lead Technician",
                 img: "https://i.ibb.co/5MvmD2g/88.jpg",
               },
@@ -117,7 +104,7 @@ export default function AboutPage() {
                 img: "https://i.ibb.co/T2cpBd5/888.jpg",
               },
               {
-                name: "Tanvir Hasan",
+                name: "Md Mostakim Hosen",
                 role: "Electrical Specialist",
                 img: "https://i.ibb.co/KzCG8qr/8888.jpg",
               },

@@ -5,54 +5,87 @@ import { format } from "date-fns";
 const mockPosts = [
   {
     id: "1",
-    title: "How to Maintain Your Car Engine Efficiently",
+    title: "Why Shopper Blog is Your Ultimate Shopping Guide",
     excerpt:
-      "Learn the key tips to keep your engine running smoothly and extend its lifespan...",
-    author: "Md. Shahjalal",
+      "Discover how Shopper Blog helps you make smarter shopping decisions with expert tips and reviews...",
+    author: "Md Mostakim Hosen",
     date: "2025-08-19",
     cover: "https://i.ibb.co/5MvmD2g/88.jpg",
-    slug: "maintain-engine-efficiently",
+    slug: "ultimate-shopping-guide",
   },
   {
     id: "2",
-    title: "Top 5 Car Services You Should Never Skip",
+    title: "Top 5 Reasons to Follow Shopper Blog",
     excerpt:
-      "Regular services are crucial to prevent costly repairs. Here’s a complete guide...",
-    author: "Md. Shahjalal",
+      "From product reviews to exclusive deals, here’s why Shopper Blog should be your daily stop...",
+    author: "Md Mostakim Hosen",
     date: "2025-08-18",
     cover: "https://i.ibb.co/wh7t3N3/555.jpg",
-    slug: "top-5-car-services",
+    slug: "reasons-to-follow-shopper-blog",
   },
   {
     id: "3",
-    title: "Electrical Systems in Modern Vehicles Explained",
+    title: "How Shopper Blog Simplifies Online Shopping",
     excerpt:
-      "Understanding your car's electrical system can save you from sudden breakdowns...",
-    author: "Md. Shahjalal",
+      "Get clear guidance, comparisons, and the latest trends all in one place to make shopping stress-free...",
+    author: "Md Atikur Rahman",
     date: "2025-08-17",
     cover: "https://i.ibb.co/KzCG8qr/8888.jpg",
-    slug: "electrical-systems-explained",
+    slug: "simplifies-online-shopping",
   },
   {
     id: "4",
-    title: "Choosing the Right Engine Oil for Your Car",
+    title: "Latest Shopping Trends Covered by Shopper Blog",
     excerpt:
-      "Engine oil is the lifeblood of your car. Learn which type is best for your vehicle...",
-    author: "Md. Shahjalal",
+      "Stay updated with the newest fashion, gadgets, and lifestyle tips through Shopper Blog...",
+    author: "Md Sabbir Hossain",
     date: "2025-08-16",
     cover: "https://i.ibb.co/T2cpBd5/888.jpg",
-    slug: "right-engine-oil",
+    slug: "latest-shopping-trends",
   },
   {
     id: "5",
-    title: "How to Detect Transmission Issues Early",
+    title: "Why Product Reviews Matter on Shopper Blog",
     excerpt:
-      "Transmission problems can be costly. Here’s how to spot warning signs before they escalate...",
-    author: "Md. Shahjalal",
+      "Learn how detailed product reviews on Shopper Blog save your money and time...",
+    author: "Md Mahmudul Hasan",
     date: "2025-08-15",
     cover: "https://i.ibb.co/wh7t3N3/555.jpg",
-    slug: "detect-transmission-issues",
+    slug: "product-reviews-matter",
   },
+  {
+    id: "6",
+    title: "Exclusive Deals and Offers on Shopper Blog",
+    excerpt:
+      "Find discounts, coupons, and special offers to make your shopping more affordable...",
+    author: "Md Fahim Hasan",
+    date: "2025-08-15",
+    cover: "https://i.ibb.co/wh7t3N3/555.jpg",
+    slug: "exclusive-deals-offers",
+  },
+
+  {
+  id: "7",
+  title: "Beginner’s Guide to Using Shopper Blog",
+  excerpt:
+    "New to Shopper Blog? Here’s how you can explore reviews, trends, and deals effectively...",
+  author: "Md Rakibul Islam",
+  date: "2025-08-14",
+  cover: "https://i.ibb.co/5MvmD2g/88.jpg",
+  slug: "beginners-guide-shopper-blog",
+},
+{
+  id: "8",
+  title: "How Shopper Blog Builds Smart Shopping Habits",
+  excerpt:
+    "Discover how regular readers of Shopper Blog save money and shop more wisely every day...",
+  author: "Md Tanvir Ahmed",
+  date: "2025-08-13",
+  cover: "https://i.ibb.co/KzCG8qr/8888.jpg",
+  slug: "smart-shopping-habits",
+},
+
+
 ];
 
 export default function BlogPage() {
@@ -64,7 +97,7 @@ export default function BlogPage() {
           Shopper Blog
         </h1>
         <p className="mt-4 text-gray-400 text-lg max-w-2xl mx-auto">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur molestias possimus fugit soluta quaerat veritatis, iusto nisi ratione velit quas, pariatur delectus debitis autem aperiam ab, voluptatum dolores illo assumenda!
+          Shopper Blog is a reliable hub for online shopping enthusiasts. It offers detailed product reviews, the latest fashion and technology trends, and helpful guides for choosing the right products online. Through the blog, readers can easily find information about discounts, offers, and coupons, making their shopping more cost-effective. The product comparison feature also helps buyers make smarter decisions. Since the articles are written in simple and clear language, anyone can easily understand them. Overall, Shopper Blog makes online shopping smarter, easier, and more enjoyable.
         </p>
       </section>
 
